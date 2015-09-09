@@ -1,9 +1,17 @@
 <?php
-
+namespace Neokike\Redsys;
+use Exception;
+/**
+* Ceca
+* @package sermepa
+* @author Eduardo Díaz
+* @forked Pedro Gorrin
+* @since 1.0.0
+*/
 /**
  * Class Sermepa
  */
-class Sermepa{
+class Redsys{
 
     private $_setEntorno;
     private $_setImporte;
@@ -484,5 +492,3 @@ class Sermepa{
         return $result;
     }
 }
-
-?>
