@@ -4,7 +4,7 @@ namespace Neokike\Redsys;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\AliasLoader;
 
-class SermepaServiceProvider extends ServiceProvider {
+class RedsysServiceProvider extends ServiceProvider {
 
 	/**
 	 * Indicates if loading of the provider is deferred.
